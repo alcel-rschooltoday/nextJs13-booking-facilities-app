@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE `booking` MODIFY `name` VARCHAR(255) NOT NULL,
+    MODIFY `time` VARCHAR(255) NOT NULL,
+    MODIFY `facility` VARCHAR(255) NOT NULL;
